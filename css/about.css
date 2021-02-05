@@ -1,0 +1,38 @@
+main{
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 200%;
+}
+
+.about {
+    background: rgb(196, 26, 26);
+    padding: 8px; 
+    font-size: 300%;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+.column {
+    float: left;
+    margin-right: 25px;
+    margin: 20px;
+    width: 23%;
+}
+
+.card {
+    box-shadow: 6px 4px 8px 8px #b3b3b3f5;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    font-size: 200%;
+}
