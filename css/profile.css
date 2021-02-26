@@ -1,0 +1,22 @@
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: center; 
+}
+
+#prof-display {
+    display: block;
+
+    width: 200px;
+    margin: 10px auto;
+    border-radius:40%;
+}
+
+#uname-style {
+    font-size: 30px;
+    font-family: "Lucida Console", Courier, monospace;
+    font-weight: bold; 
+}
+
