@@ -1,54 +1,19 @@
-<main>
-    <link rel="stylesheet" href="css/about.css">
+<h5 style = "text-align: center;">No reviews yet! Be the first!</h5>
 
-    <div class="about">
-        <h1>About Us</h1>
-        <p>ujhgfdedfhg</p>
-    </div>
+<div class="card mx-auto" style="width: 30%; padding: 5px; margin-bottom: 10px;">
+    <div class="media">
+        <img class="mr-3" src="'.$picpath.'" style="max-width: 75px; max-height: 75px; border-radius: 50%;">
+        <div class="media-body">
+          <h5 class="mt-0">$row['uname']</h5>
+          <p>'.$row['revdate'].'</p>
+          <p>'.$row['reviewtext'].'</p>
+          </div>
+      </div>
+</div>
 
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <img src="images/image2.jpeg">
-                <div class="container">
-                    <h2>CEO</h2>
-                    <p>Name of CEO</p>
-                    <p>Email: random@random.com</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="column">
-            <div class="card">
-                <img src="images/flower.jpeg">
-                <div class="container">
-                    <h2>CEO</h2>
-                    <p>Name of CEO</p>
-                    <p>Email: random@random.com</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="images/image2.jpeg">
-                <div class="container">
-                    <h2>CEO</h2>
-                    <p>Name of CEO</p>
-                    <p>Email: random@random.com</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="images/flower.jpeg">
-                <div class="container">
-                    <h2>CEO</h2>
-                    <p>Name of CEO</p>
-                    <p>Email: random@random.com</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</main>
+<div class="container" style="text-align: center;">
+    <h1>'.$avg.'</h1>
+    <div class="container" style="margin-bottom: 10px;">'.stars($avg).'</div>
+    <p>Number of ratings: '.round($row2['Total'],1).'</p>
+</div>
